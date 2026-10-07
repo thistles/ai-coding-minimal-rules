@@ -6,7 +6,7 @@
 
 **[English README](README_EN.md)** ｜ 版本 V1.1（[变更记录](CHANGELOG.md)） ｜ MIT License
 
-![四个机制](assets/fig1-四个机制.png)
+![四个机制](assets/fig1-four-mechanisms.png)
 
 ---
 
@@ -23,7 +23,7 @@
 | 没有回归网 | 验证 | seam + 先红后绿 + 竖切片 |
 | 决策不被记住 | 记忆 | ADR 三条判据 + 术语表 |
 
-![核心循环](assets/fig2-核心循环.png)
+![核心循环](assets/fig2-core-loop.png)
 
 ---
 
