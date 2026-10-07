@@ -29,7 +29,7 @@ The cause is not "the AI got dumber" or "the process wasn't rigorous enough". It
 
 ### Option 1: rules for the AI only
 
-Copy [`AI-CODING-RULES.md`](AI-CODING-RULES.md) into your project root, and add one line to `AGENTS.md`:
+Copy [`AI-CODING-RULES_EN.md`](AI-CODING-RULES_EN.md) into your project root (rename it to `AI-CODING-RULES.md`), and add one line to `AGENTS.md`:
 
 ```
 Before any work, read AI-CODING-RULES.md in full and treat it as a hard constraint of this project.
@@ -90,10 +90,12 @@ Templates live in [`templates/`](templates/).
 
 ## Documents
 
-- 📄 [PDF (14 pages, print-friendly)](AI-CODING-RULES.pdf) — Chinese
-- 📝 [Markdown (source)](AI-CODING-RULES.md) — Chinese
+- 📄 [PDF (14 pages, print-friendly)](AI-CODING-RULES_EN.pdf) — English
+- 📝 [Markdown (source)](AI-CODING-RULES_EN.md) — English
+- 📄 [PDF（14 页，适合打印）](AI-CODING-RULES.pdf) — Chinese
+- 📝 [Markdown（源文件）](AI-CODING-RULES.md) — Chinese
 
-Note: the full methodology document is currently in Chinese; the four skills under `skills/` are written in Chinese as well but follow the standard `SKILL.md` format and work with any agent that reads skills.
+Note: the four skills under `skills/` are written in Chinese, but they follow the standard `SKILL.md` format and work with any agent that reads skills.
 
 ---
 

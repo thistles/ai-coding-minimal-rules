@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+  <rect width="1000" height="600" fill="#ffffff"/>
+
+  <text x="45" y="50" font-size="24" font-weight="600" fill="#1f2328">One loop, four steps</text>
+  <text x="45" y="78" font-size="14" fill="#6b7280">Four mechanisms for four root causes, so four steps is all there is. More steps means lower compliance.</text>
+
+  <!-- step 1 -->
+  <rect x="45" y="126" width="280" height="120" rx="12" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.5"/>
+  <text x="185" y="154" font-size="16" font-weight="600" fill="#0C447C" text-anchor="middle">&#9312; align &#8212; lock it down</text>
+  <text x="185" y="180" font-size="12" fill="#185FA5" text-anchor="middle">One question at a time, exhaust the tree</text>
+  <text x="185" y="202" font-size="12" fill="#185FA5" text-anchor="middle">write spec &#183; set red lines &#183; record ADR</text>
+  <text x="185" y="228" font-size="11.5" fill="#185FA5" text-anchor="middle">Root cause 1: the truth lives only in chat</text>
+
+  <!-- step 2 -->
+  <rect x="345" y="126" width="280" height="120" rx="12" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+  <text x="485" y="154" font-size="16" font-weight="600" fill="#085041" text-anchor="middle">&#9313; build &#8212; make it</text>
+  <text x="485" y="180" font-size="12" fill="#0F6E56" text-anchor="middle">pick seam &#8594; red &#8594; green &#8594; next slice</text>
+  <text x="485" y="202" font-size="12" fill="#0F6E56" text-anchor="middle">vertical slice &#183; one change &#8804; 5 files</text>
+  <text x="485" y="228" font-size="11.5" fill="#0F6E56" text-anchor="middle">Root causes 2 &amp; 3: no boundary, no regression net</text>
+
+  <!-- step 3 -->
+  <rect x="645" y="126" width="280" height="120" rx="12" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.5"/>
+  <text x="785" y="154" font-size="16" font-weight="600" fill="#3C3489" text-anchor="middle">&#9314; audit &#8212; review</text>
+  <text x="785" y="180" font-size="12" fill="#534AB7" text-anchor="middle">conventions axis + spec axis, reported apart</text>
+  <text x="785" y="202" font-size="12" fill="#534AB7" text-anchor="middle">never merged, never ranked across axes</text>
+  <text x="785" y="228" font-size="11.5" fill="#534AB7" text-anchor="middle">makes scope creep visible</text>
+
+  <!-- arrows 1->2, 2->3 -->
+  <path d="M328 186L341 186" fill="none" stroke="#888780" stroke-width="2.5" marker-end="url(#arr2)"/>
+  <path d="M628 186L641 186" fill="none" stroke="#888780" stroke-width="2.5" marker-end="url(#arr2)"/>
+
+  <!-- loop back 3->1 -->
+  <path d="M925 186L950 186 Q970 186 970 206 L970 276 Q970 296 950 296 L62 296 Q42 296 42 276 L42 206 Q42 186 62 186 L45 186" fill="none" stroke="#888780" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arr2)"/>
+  <text x="500" y="320" font-size="12.5" fill="#6b7280" text-anchor="middle">Next iteration: bring the new facts back to align and re-lock the scope</text>
+
+  <!-- rescue -->
+  <rect x="225" y="346" width="530" height="112" rx="12" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1.5"/>
+  <text x="490" y="374" font-size="16" font-weight="600" fill="#791F1F" text-anchor="middle">&#9315; rescue &#8212; diagnose (insert any time)</text>
+  <text x="490" y="400" font-size="12" fill="#A32D2D" text-anchor="middle">Build a loop that can turn red before you talk about causes</text>
+  <text x="490" y="422" font-size="12" fill="#A32D2D" text-anchor="middle">red &#8594; minimise &#8594; 3&#8211;5 falsifiable hypotheses &#8594; instrument &#8594; fix</text>
+  <text x="490" y="446" font-size="11.5" fill="#A32D2D" text-anchor="middle">Root cause 4: the real cause goes into the commit message, so nobody re-walks it</text>
+
+  <path d="M420 258 L420 340" fill="none" stroke="#F09595" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arr2)"/>
+  <path d="M560 258 L560 340" fill="none" stroke="#F09595" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arr2)"/>
+
+  <!-- footer: four files -->
+  <rect x="45" y="490" width="880" height="90" rx="10" fill="#F8FAFC" stroke="#D3D1C7" stroke-width="1.5"/>
+  <text x="70" y="518" font-size="14" font-weight="600" fill="#2C2C2A">Three files, no fourth</text>
+  <text x="70" y="544" font-size="12" fill="#444441">AGENTS.md (constitution) &#160;&#183;&#160; docs/spec.md (current spec) &#160;&#183;&#160; docs/adr/ (decisions) &#160;&#183;&#160; tests are the regression net</text>
+  <text x="70" y="566" font-size="11.5" fill="#6b7280">File count is the main source of learning cost. No progress logs, no architecture panoramas, no README digests.</text>
+
+  <defs>
+    <marker id="arr2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+</svg>

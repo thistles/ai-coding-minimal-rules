@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+  <rect width="1000" height="540" fill="#ffffff"/>
+
+  <text x="45" y="52" font-size="24" font-weight="600" fill="#1f2328">Fix one thing, break three: not a rigor problem&#160;&#8212; four mechanisms are missing</text>
+  <text x="45" y="80" font-size="14" fill="#6b7280">The four gaps coexist. Stacked together, they produce loss of control. Close any one link and the chain breaks.</text>
+
+  <!-- Gap 1 -->
+  <rect x="45" y="110" width="220" height="88" rx="10" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1.5"/>
+  <text x="155" y="138" font-size="15" font-weight="600" fill="#791F1F" text-anchor="middle">Gap 1 &#183; No truth</text>
+  <text x="155" y="162" font-size="12" fill="#A32D2D" text-anchor="middle">Requirements live only in chat</text>
+  <text x="155" y="182" font-size="12" fill="#A32D2D" text-anchor="middle">Close the chat, it all evaporates</text>
+
+  <!-- Gap 2 -->
+  <rect x="275" y="110" width="220" height="88" rx="10" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1.5"/>
+  <text x="385" y="138" font-size="15" font-weight="600" fill="#791F1F" text-anchor="middle">Gap 2 &#183; No boundary</text>
+  <text x="385" y="162" font-size="12" fill="#A32D2D" text-anchor="middle">Nobody bounds the blast radius</text>
+  <text x="385" y="182" font-size="12" fill="#A32D2D" text-anchor="middle">20 files changed, nobody stops it</text>
+
+  <!-- Gap 3 -->
+  <rect x="505" y="110" width="220" height="88" rx="10" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1.5"/>
+  <text x="615" y="138" font-size="15" font-weight="600" fill="#791F1F" text-anchor="middle">Gap 3 &#183; No verification</text>
+  <text x="615" y="162" font-size="12" fill="#A32D2D" text-anchor="middle">No regression net</text>
+  <text x="615" y="182" font-size="12" fill="#A32D2D" text-anchor="middle">You never learn what you broke</text>
+
+  <!-- Gap 4 -->
+  <rect x="735" y="110" width="220" height="88" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="1.5"/>
+  <text x="845" y="138" font-size="15" font-weight="600" fill="#633806" text-anchor="middle">Gap 4 &#183; No memory</text>
+  <text x="845" y="162" font-size="12" fill="#854F0B" text-anchor="middle">Decisions are not remembered</text>
+  <text x="845" y="182" font-size="12" fill="#854F0B" text-anchor="middle">Same problem re-solved five times</text>
+
+  <!-- converging arrows -->
+  <path d="M155 198 L155 226 L500 226 L500 248" fill="none" stroke="#888780" stroke-width="1.5"/>
+  <path d="M385 198 L385 226" fill="none" stroke="#888780" stroke-width="1.5"/>
+  <path d="M615 198 L615 226" fill="none" stroke="#888780" stroke-width="1.5"/>
+  <path d="M845 198 L845 226 L500 226" fill="none" stroke="#888780" stroke-width="1.5"/>
+  <path d="M500 226 L500 248" fill="none" stroke="#888780" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- out of control -->
+  <rect x="330" y="252" width="340" height="70" rx="10" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1.5"/>
+  <text x="500" y="278" font-size="17" font-weight="600" fill="#2C2C2A" text-anchor="middle">Out of control</text>
+  <text x="500" y="302" font-size="12" fill="#5F5E5A" text-anchor="middle">Nothing can be changed, and nobody can tell which change was the original sin</text>
+
+  <!-- solution -->
+  <text x="45" y="368" font-size="18" font-weight="600" fill="#0f766e">Add the four mechanisms and &#8220;out of control&#8221; stops being a thing</text>
+
+  <!-- Mechanism 1 -->
+  <rect x="45" y="388" width="220" height="112" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+  <text x="155" y="414" font-size="15" font-weight="600" fill="#085041" text-anchor="middle">Source of truth</text>
+  <text x="155" y="438" font-size="12" fill="#0F6E56" text-anchor="middle">AGENTS.md</text>
+  <text x="155" y="458" font-size="12" fill="#0F6E56" text-anchor="middle">docs/spec.md</text>
+  <text x="155" y="478" font-size="12" fill="#0F6E56" text-anchor="middle">docs/adr/</text>
+  <text x="155" y="494" font-size="11" fill="#0F6E56" text-anchor="middle">the repo carries the intent</text>
+
+  <!-- Mechanism 2 -->
+  <rect x="275" y="388" width="220" height="112" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+  <text x="385" y="414" font-size="15" font-weight="600" fill="#085041" text-anchor="middle">Boundary</text>
+  <text x="385" y="438" font-size="12" fill="#0F6E56" text-anchor="middle">One change &#8804; 5 files</text>
+  <text x="385" y="458" font-size="12" fill="#0F6E56" text-anchor="middle">Beyond that: expand&#8211;contract</text>
+  <text x="385" y="478" font-size="11" fill="#0F6E56" text-anchor="middle">add &#8594; migrate in batches &#8594; delete</text>
+  <text x="385" y="494" font-size="11" fill="#0F6E56" text-anchor="middle">green after every batch</text>
+
+  <!-- Mechanism 3 -->
+  <rect x="505" y="388" width="220" height="112" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+  <text x="615" y="414" font-size="15" font-weight="600" fill="#085041" text-anchor="middle">Verification net</text>
+  <text x="615" y="438" font-size="12" fill="#0F6E56" text-anchor="middle">seam: observe public interfaces</text>
+  <text x="615" y="458" font-size="12" fill="#0F6E56" text-anchor="middle">red-before-green &#183; vertical slice</text>
+  <text x="615" y="478" font-size="11" fill="#0F6E56" text-anchor="middle">one commit does one thing</text>
+  <text x="615" y="494" font-size="11" fill="#0F6E56" text-anchor="middle">no tautological assertions</text>
+
+  <!-- Mechanism 4 -->
+  <rect x="735" y="388" width="220" height="112" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+  <text x="845" y="414" font-size="15" font-weight="600" fill="#085041" text-anchor="middle">Memory</text>
+  <text x="845" y="438" font-size="12" fill="#0F6E56" text-anchor="middle">ADR three-criteria test</text>
+  <text x="845" y="458" font-size="12" fill="#0F6E56" text-anchor="middle">read 3 files every session</text>
+  <text x="845" y="478" font-size="11" fill="#0F6E56" text-anchor="middle">glossary unifies the vocabulary</text>
+  <text x="845" y="494" font-size="11" fill="#0F6E56" text-anchor="middle">append-only, never rewritten</text>
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+</svg>

@@ -2,6 +2,12 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 约定。
 
+## [V1.2] - 2026-10-07
+
+- 新增英文版规范文档：`AI-CODING-RULES_EN.md` 与 `AI-CODING-RULES_EN.pdf`（14 页，与中文版 V1.1 内容对齐）
+- 新增英文版机制图：`assets/fig1-four-mechanisms-en`、`assets/fig2-core-loop-en`（PNG + SVG）及渲染导出工具 `assets/figures-en.html`
+- 双版 README 文档链接更新为按语言区分
+
 ## [V1.1] - 2026-10-06
 
 首个公开整理版本。

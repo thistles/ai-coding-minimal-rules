@@ -94,6 +94,7 @@ docs/adr/          决策记录：三条判据全中才写，一个段落就够
 
 - 📄 [PDF（14 页，适合打印）](AI-CODING-RULES.pdf)
 - 📝 [Markdown（源文件）](AI-CODING-RULES.md)
+- 📄 [English PDF](AI-CODING-RULES_EN.pdf) ｜ 📝 [English Markdown](AI-CODING-RULES_EN.md)
 
 ---
 
