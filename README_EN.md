@@ -4,7 +4,7 @@
 
 **A behavioral constraint document your AI reads before starting any work on a project.** Four mechanisms, three files, one loop.
 
-![Four mechanisms](assets/fig1-four-mechanisms.png)
+![Four mechanisms](assets/fig1-four-mechanisms-en.png)
 
 ---
 
@@ -21,7 +21,7 @@ The cause is not "the AI got dumber" or "the process wasn't rigorous enough". It
 | No regression net | Verification | seam + red-before-green + vertical slices |
 | Decisions are not remembered | Memory | ADR three-criteria test + glossary |
 
-![Core loop](assets/fig2-core-loop.png)
+![Core loop](assets/fig2-core-loop-en.png)
 
 ---
 
