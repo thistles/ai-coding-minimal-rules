@@ -31,7 +31,7 @@
 
 ### 方式一：只给AI 用
 
-把 [`AI编程失控治理-极简规范与方法论.md`](AI编程失控治理-极简规范与方法论.md) 改名`AI-CODING-RULES.md` 放项目根目录，然后在 `AGENTS.md` 加一行：
+把 [`AI-CODING-RULES.md`](AI-CODING-RULES.md) 拷到项目根目录，然后在 `AGENTS.md` 加一行：
 
 ```
 开始任何工作前，先完整阅读 AI-CODING-RULES.md，并把它当作本项目的硬约束执行。
@@ -92,8 +92,8 @@ docs/adr/          决策记录：三条判据全中才写，一个段落就够
 
 ## 文档
 
-- 📄 [PDF（14 页，适合打印）](AI编程失控治理-极简规范与方法论.pdf)
-- 📝 [Markdown（源文件）](AI编程失控治理-极简规范与方法论.md)
+- 📄 [PDF（14 页，适合打印）](AI-CODING-RULES.pdf)
+- 📝 [Markdown（源文件）](AI-CODING-RULES.md)
 
 ---
 
