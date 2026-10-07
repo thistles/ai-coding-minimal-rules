@@ -1,0 +1,12 @@
+# Windows / macOS 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Office 临时文件
+~$*
+
+# 编辑器
+.vscode/
+.idea/
+*.swp

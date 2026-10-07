@@ -1,0 +1,14 @@
+# 变更记录
+
+本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 约定。
+
+## [V1.1] - 2026-10-06
+
+首个公开整理版本。
+
+- 主文档《AI 编程失控治理：极简规范与方法论》：四个机制、四步循环（align / build / audit / rescue）、速查卡、给 AI 的执行摘要
+- 四个技能：`skills/align`、`skills/build`、`skills/audit`、`skills/rescue`（标准 SKILL.md 格式）
+- 三份模板：`templates/AGENTS.md`、`templates/spec.md`、`templates/adr`
+- 14 页 PDF 版（适合打印）与两张机制图（PNG + SVG）
+
+<!-- 发布到 GitHub 前：如果 V1.1 相对内部 V1.0 有具体改动，请在此补充；没有可删掉本行注释。 -->

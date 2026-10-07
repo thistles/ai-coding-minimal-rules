@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+  <rect width="960" height="520" fill="#ffffff"/>
+
+  <text x="48" y="52" font-size="26" font-weight="600" fill="#1f2328">改一处、错三处：不是不严谨，是缺四个机制</text>
+  <text x="48" y="82" font-size="15" fill="#6b7280">四个缺口同时存在，叠加起来才会失控。补上任一环，链条就断。</text>
+
+  <!-- 缺口1 -->
+  <rect x="48" y="112" width="200" height="86" rx="10" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1.5"/>
+  <text x="148" y="140" font-size="16" font-weight="600" fill="#791F1F" text-anchor="middle">缺口 1 无真相</text>
+  <text x="148" y="164" font-size="13" fill="#A32D2D" text-anchor="middle">需求只在对话里</text>
+  <text x="148" y="184" font-size="12" fill="#A32D2D" text-anchor="middle">对话一关，全部蒸发</text>
+
+  <!-- 缺口2 -->
+  <rect x="268" y="112" width="200" height="86" rx="10" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1.5"/>
+  <text x="368" y="140" font-size="16" font-weight="600" fill="#791F1F" text-anchor="middle">缺口 2 无边界</text>
+  <text x="368" y="164" font-size="13" fill="#A32D2D" text-anchor="middle">改动范围没人定</text>
+  <text x="368" y="184" font-size="12" fill="#A32D2D" text-anchor="middle">改 20 个文件没人拦</text>
+
+  <!-- 缺口3 -->
+  <rect x="488" y="112" width="200" height="86" rx="10" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1.5"/>
+  <text x="588" y="140" font-size="16" font-weight="600" fill="#791F1F" text-anchor="middle">缺口 3 无验证</text>
+  <text x="588" y="164" font-size="13" fill="#A32D2D" text-anchor="middle">没有回归网</text>
+  <text x="588" y="184" font-size="12" fill="#A32D2D" text-anchor="middle">改坏了自己不知道</text>
+
+  <!-- 缺口4 -->
+  <rect x="708" y="112" width="200" height="86" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="1.5"/>
+  <text x="808" y="140" font-size="16" font-weight="600" fill="#633806" text-anchor="middle">缺口 4 无记忆</text>
+  <text x="808" y="164" font-size="13" fill="#854F0B" text-anchor="middle">决策不被记住</text>
+  <text x="808" y="184" font-size="12" fill="#854F0B" text-anchor="middle">同一个问题改五遍</text>
+
+  <!-- 汇聚箭头 -->
+  <path d="M148 198 L148 226 L470 226 L470 250" fill="none" stroke="#888780" stroke-width="1.5"/>
+  <path d="M368 198 L368 226" fill="none" stroke="#888780" stroke-width="1.5"/>
+  <path d="M588 198 L588 226" fill="none" stroke="#888780" stroke-width="1.5"/>
+  <path d="M808 198 L808 226 L470 226" fill="none" stroke="#888780" stroke-width="1.5"/>
+  <path d="M470 226 L470 248" fill="none" stroke="#888780" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- 失控 -->
+  <rect x="330" y="252" width="280" height="70" rx="10" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1.5"/>
+  <text x="470" y="278" font-size="18" font-weight="600" fill="#2C2C2A" text-anchor="middle">失控</text>
+  <text x="470" y="302" font-size="13" fill="#5F5E5A" text-anchor="middle">改不动了，且说不清哪处是原罪</text>
+
+  <!-- 解法标题 -->
+  <text x="48" y="366" font-size="19" font-weight="600" fill="#0f766e">四个机制补上，失控就不成立</text>
+
+  <!-- 机制1 -->
+  <rect x="48" y="386" width="200" height="104" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+  <text x="148" y="412" font-size="15" font-weight="600" fill="#085041" text-anchor="middle">真相源</text>
+  <text x="148" y="436" font-size="13" fill="#0F6E56" text-anchor="middle">AGENTS.md</text>
+  <text x="148" y="456" font-size="13" fill="#0F6E56" text-anchor="middle">docs/spec.md</text>
+  <text x="148" y="476" font-size="13" fill="#0F6E56" text-anchor="middle">docs/adr/</text>
+
+  <!-- 机制2 -->
+  <rect x="268" y="386" width="200" height="104" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+  <text x="368" y="412" font-size="15" font-weight="600" fill="#085041" text-anchor="middle">边界</text>
+  <text x="368" y="436" font-size="13" fill="#0F6E56" text-anchor="middle">一次改动 ≤ 5 文件</text>
+  <text x="368" y="458" font-size="13" fill="#0F6E56" text-anchor="middle">超过走扩展-收缩</text>
+  <text x="368" y="478" font-size="12" fill="#0F6E56" text-anchor="middle">先加 → 分批挪 → 再删</text>
+
+  <!-- 机制3 -->
+  <rect x="488" y="386" width="200" height="104" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+  <text x="588" y="412" font-size="15" font-weight="600" fill="#085041" text-anchor="middle">验证网</text>
+  <text x="588" y="436" font-size="13" fill="#0F6E56" text-anchor="middle">seam：测公共接口</text>
+  <text x="588" y="458" font-size="13" fill="#0F6E56" text-anchor="middle">先红后绿 · 竖切片</text>
+  <text x="588" y="478" font-size="12" fill="#0F6E56" text-anchor="middle">一个 commit 一件事</text>
+
+  <!-- 机制4 -->
+  <rect x="708" y="386" width="200" height="104" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.5"/>
+  <text x="808" y="412" font-size="15" font-weight="600" fill="#085041" text-anchor="middle">记忆</text>
+  <text x="808" y="436" font-size="13" fill="#0F6E56" text-anchor="middle">ADR 三条判据</text>
+  <text x="808" y="458" font-size="13" fill="#0F6E56" text-anchor="middle">每会话必读三文件</text>
+  <text x="808" y="478" font-size="12" fill="#0F6E56" text-anchor="middle">术语表统一口径</text>
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+</svg>
